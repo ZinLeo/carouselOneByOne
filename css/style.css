@@ -1,0 +1,95 @@
+/*样式reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+html {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+q, blockquote {
+	quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none;
+}
+a img {
+	border: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+
+/*style*/
+.title{
+	width: 100%;
+	height: 50px;
+	margin: 30px 0 0 0;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	font-weight: bold;
+}
+.box {
+	width: 700px;
+	height: 200px;
+	margin: 100px auto;
+	border: 5px solid red;
+}
+.btn {
+	width: 50px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+	font-size: 60px;
+	font-family: "Microsoft YaHei", "宋体";
+	cursor: pointer;
+}
+.btn:hover{
+	background: rgba(0,0,0,.5);
+}
+.rollBox{
+	float: left;
+	width: 600px;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.rollUl{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 10000px;
+	height: 140px;
+	margin-top: -70px;
+}
+
+.rollUl li{
+	float: left;
+	width: 200px;
+	height: 140px;
+	margin: 0 5px;
+}
+
+.rollUl li img {
+	width: 200px;
+	height: 140px;
+}
